@@ -16,7 +16,7 @@ function caesarCypher (secret, shift){
         } else {
             newStr.push(letter); //if the character is not in the alphabet, it will place it into the array as is.
         }
-  }
+      }
   return newStr.join("");
 }
 
